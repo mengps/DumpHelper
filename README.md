@@ -46,7 +46,7 @@ QString customNameGenerator() {
 ## 注意事项
 
 1. Windows平台需要确保：
-  * 存在 `dbghelp.dll`（建议使用Windows SDK自带版本）
+   - 存在 `dbghelp.dll`
 2. 完整内存dump文件较大，建议配合压缩使用(通过AfterWriteDumpCallback)
 3. 生产环境建议组合使用：`MiniDumpWithThreadInfo | MiniDumpWithUnloadedModules`
 
